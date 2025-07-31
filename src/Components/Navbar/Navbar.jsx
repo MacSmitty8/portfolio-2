@@ -5,14 +5,13 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className='navbar'>
-    <h1 className='title'>Macreen</h1>
-    <ul className='nav-menu'>
-    <li>Home</li>
-    <li>About Me</li>
-    <li>Services</li>
-    <li>Portfolio</li>
-    <li>Contact</li>
-    </ul>
+      <h1 className='title'>Macreen</h1>
+      <ul className='nav-menu'>
+        <li>Home</li>
+        <li>About Me</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
       <div className="nav-connect">Connect With Me</div>
     </div>
   )
