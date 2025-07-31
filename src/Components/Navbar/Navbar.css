@@ -14,5 +14,11 @@
 .nav-connect{
     padding:20px 40px;
     border-radius: 50px;
-    background:linear-gradient(267deg,#72d48b, #82c17b, #8aae71, #8c9d6a, #888c67);
+    background:linear-gradient(267deg, #6fe9af, #00d8d3, #00c1f6, #00a3ff, #657aef);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover{
+    transform:scale(1.05);
 }
