@@ -1,0 +1,26 @@
+.projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.projects-title {
+    position: relative;
+    font-size: 50px;
+}
+
+.project-box {
+    display: flex;
+    align-items: normal;
+    flex-direction: column;
+}
+
+.project-image-button {
+    max-height: 300px;
+}
+
+.project-image-button img {
+    max-height: 276px;
+    max-width: 484px;
+}

@@ -5,10 +5,12 @@ import city_sights from '../../assets/Images/City-Sights-Photo.jpg'
 const Projects = () => {
     return (
         <div className='projects'>
-            <div className="projects-title">Featured Projects</div>
+            <div className="projects-title">
+                <h1>Featured Projects</h1>
+            </div>
             <div className="projects-box">
                 <div className="project-card">
-                    <button className='project-image'>
+                    <button className='project-image-button'>
                         <img src={city_sights} alt='' />
                     </button>
                     <h2 className='project-title'>City Sights</h2>
