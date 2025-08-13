@@ -5,12 +5,18 @@
     gap: 35px;
 }
 
-.projects-title {
+.projects-header {
     position: relative;
     font-size: 50px;
 }
 
-.project-box {
+.project-title {
+    position: relative;
+    font-size: 40px;
+
+}
+
+.projects-box {
     display: flex;
     align-items: normal;
     flex-direction: column;
@@ -23,4 +29,55 @@
 .project-image-button img {
     max-height: 276px;
     max-width: 484px;
+}
+
+.project-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-used {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.html-banner {
+    padding-top: .10rem;
+    padding-bottom: .10rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    border-radius: 50px;
+    background-color: red;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.css-banner{
+     padding-top: .10rem;
+    padding-bottom: .10rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    border-radius: 50px;
+    background-color: blue;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.javascript-banner{
+     padding-top: .10rem;
+    padding-bottom: .10rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    border-radius: 50px;
+    background-color: orange;
+    display: inline-block;
+    font-size: 16px;
 }
